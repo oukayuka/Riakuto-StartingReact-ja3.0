@@ -5,7 +5,7 @@ import { Divider } from 'semantic-ui-react';
 
 import Spinner from 'components/molecules/Spinner';
 import HomeButton from 'components/molecules/HomeButton';
-import MemberList from 'containers/oraganisms/MemberList';
+import MemberList from 'containers/organisms/MemberList';
 import ErrorBoundary from 'ErrorBoundary';
 
 const Members: FC<{ orgCode: string }> = ({ orgCode = 'UnknownCompany' }) => {

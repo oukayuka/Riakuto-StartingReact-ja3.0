@@ -13,8 +13,8 @@ import capitalize from 'lodash/capitalize';
 
 import ErrorBoundary from 'ErrorBoundary';
 import Spinner from 'components/molecules/Spinner';
-import OrgInfo from 'containers/oraganisms/OrgInfo';
-import MemberList from 'containers/oraganisms/MemberList';
+import OrgInfo from 'containers/organisms/OrgInfo';
+import MemberList from 'containers/organisms/MemberList';
 import './Members.css';
 
 const SUSPENSE_CONFIG: SuspenseConfig = {
